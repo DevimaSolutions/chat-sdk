@@ -1,5 +1,5 @@
 {
-  "name": "chat-ui",
+  "name": "chat-sdk",
   "version": "0.0.1",
   "description": "",
   "scripts": {
@@ -7,7 +7,7 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-  "repository": "git@github-devima:DevimaSolutions/chat-ui.git",
+  "repository": "git@github-devima:DevimaSolutions/chat-sdk.git",
   "author": "Arsen Trynko <arsen@devima.solutions>",
   "license": "ISC",
   "type": "module",
@@ -41,6 +41,6 @@
   ],
   "types": "dist/index.d.ts",
   "peerDependencies": {
-    "react-dom": "*"
+    "react": ">= 16.8.0"
   }
 }
