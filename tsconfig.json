@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "es5", 
     "esModuleInterop": true, 
     "forceConsistentCasingInFileNames": true,
@@ -14,5 +15,29 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "emitDeclarationOnly": true,
-  }
+  },
 }
+
+// {
+//   "extends": "./tsconfig.paths.json",
+//   "compilerOptions": {
+//     "target": "es5",
+//     "lib": ["dom", "dom.iterable", "esnext"],
+//     "allowJs": false,
+//     "skipLibCheck": true,
+//     "strict": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "noEmit": true,
+//     "esModuleInterop": true,
+//     "module": "esnext",
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "jsx": "preserve",
+//     "emitDecoratorMetadata": true,
+//     "experimentalDecorators": true,
+//     "strictPropertyInitialization": false
+//   },
+//   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/api/admin/collectible/character-types/[characterTypeId]"],
+//   "exclude": ["node_modules", "**/*.js"]
+// }
